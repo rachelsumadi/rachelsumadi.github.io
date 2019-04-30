@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="500" height="34" viewBox="0 0 645.613 34">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.5" x2="0.5" y2="4.434" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#e5e3e6"/>
+      <stop offset="1" stop-color="#c6cace"/>
+    </linearGradient>
+    <filter id="highlight.img" x="271.763" y="0" width="102" height="34" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Group_18" data-name="Group 18" transform="translate(-110 -149.77)">
+    <g id="Group_35" data-name="Group 35" transform="translate(110 152.77)">
+      <g id="Rectangle_2" data-name="Rectangle 2" stroke="#707070" stroke-width="1" fill="url(#linear-gradient)">
+        <rect width="645.613" height="22" rx="6" stroke="none"/>
+        <rect x="0.5" y="0.5" width="644.613" height="21" rx="5.5" fill="none"/>
+      </g>
+      <circle id="Ellipse_1" data-name="Ellipse 1" cx="6.5" cy="6.5" r="6.5" transform="translate(10 4.23)" fill="#cfcfcf"/>
+      <circle id="Ellipse_1-2" data-name="Ellipse 1" cx="6.5" cy="6.5" r="6.5" transform="translate(31 4.23)" fill="#cfcfcf"/>
+      <circle id="Ellipse_4" data-name="Ellipse 4" cx="6.5" cy="6.5" r="6.5" transform="translate(52 4.23)" fill="#cfcfcf"/>
+      <g transform="matrix(1, 0, 0, 1, 0, -3)" filter="url(#highlight.img)">
+        <text id="highlight.img-2" data-name="highlight.img" transform="translate(280.76 19)" fill="#707070" font-size="14" font-family="SFProDisplay-Medium, SF Pro Display" font-weight="500" letter-spacing="0.03em"><tspan x="0" y="0">highlight.img</tspan></text>
+      </g>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,212 @@
+nav{
+    font-family: 'SF-Pro-Display-Semibold', sans-serif;
+    display: flex;
+    justify-content: flex-end;
+    color: #5D5D5D;
+    font-weight: bold;
+    font-size: 35px;
+    letter-spacing: 1px;
+}
+
+nav {
+    text-decoration: #D54A4A underline;
+}
+
+#top {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: flex-start;
+}
+
+#small-yellow-dot {
+    height: 45px;
+    width: 45px;
+    border-radius: 100%;
+    background-color: #FFF5D9;
+    position: relative;
+    right: 40px;
+}
+
+#small-yellow-dot:hover {
+    background-color: #FFEBB4;
+    transition: 0.7s;
+}
+
+#small-blue-dot {
+    height: 45px;
+    width: 45px;
+    border-radius: 100%;
+    background-color: #DAEFF8;
+    position: relative;
+    right: 30px;
+}
+
+#small-blue-dot:hover {
+    background-color: #C5EDFD;
+    transition: 0.7s;
+}
+
+#small-pink-dot {
+    height: 45px;
+    width: 45px;
+    border-radius: 100%;
+    background-color: #FFEAEA;
+    position: relative;
+    right: 20px;
+}
+
+#small-pink-dot:hover {
+    background-color: #FFD1D1;
+    transition: 0.7s;
+}
+
+.favorite {
+    position: relative;
+    left: 150px;
+    bottom: 80px;
+}
+
+.favorite-word {
+    font-family: "Times New Roman", Times, serif;
+    font-weight: 600;
+    color: #D54A4A;
+    font-size: 47px;
+    letter-spacing: 1.5px;
+    padding: 10px 10px 10px 10px; 
+}
+
+.favorite-number {
+    font-family: "Times New Roman", Times, serif;
+    font-weight: 600;
+    color: #D54A4A;
+    font-size: 27px;
+    display: inline;
+    position: relative;
+    left: 95px;
+}
+
+.favorite-definition {
+    font-family: "Times New Roman", Times, serif;
+    color: #D54A4A;
+    font-size: 27px;
+    display: inline;
+    padding-left: 20px;
+    letter-spacing: 1.5px;
+    position: relative;
+    left: 95px;
+}
+
+#pink-dot{
+    height: 200px;
+    width: 200px;
+    background-color: #FFEAEA;
+    border-radius: 100%;
+    position: relative;
+    left: 220px;
+    top: 95px;
+}
+
+.return {
+    font-family: 'SF-Pro-Display-Regular', sans-serif;
+    font-size: 30px;
+    text-align: center;
+    letter-spacing: 2px;
+    width: 85px;
+    padding: 10px 30px 10px 30px;
+    border-color: #707070;
+    color: #FFFFFF;
+    background-color: rgb(253, 223, 223);
+    border-radius: 30px;
+    box-shadow: 0 7px #F0F0F0;
+    display: inline-block;
+    display: none;
+    position: relative;
+    left: 910px;
+    bottom: 40px;
+}
+
+.return:active {
+    box-shadow: 0 3px #F0F0F0;
+    transform: translateY(2px);
+}
+
+.labels {
+    font-family: 'SF-Pro-Display-Regular', sans-serif;
+    font-size: 20px;
+    text-align: center;
+    letter-spacing: 1.7px;
+    font-style: italic;
+    position: absolute;
+    top: 70px;
+}
+
+#record-word {
+    position: relative; 
+    top: 350px;
+    left: 475px;
+    display: none;
+}
+
+#boba-word {
+    position: relative; 
+    top: 360px;
+    left: 510px;
+    display: none;
+}
+
+#laptop-word {
+    position: relative; 
+    top: 350px;
+    left: 465px;
+    display: none;
+}
+
+#animation {
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    margin: 0 50px;
+    position: relative;
+    top: 50px;
+}
+
+#record:hover {
+    animation-name: bounce;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+#boba-full:hover {
+    animation-name: bounce;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+#laptop-off {
+    position: relative;
+    top: 10px;
+}
+
+#laptop-off:hover {
+    animation-name: bounce;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+#me-myname {
+    font-family: 'SF-Pro-Display-Semibold', sans-serif;
+    font-size: 20px;
+    opacity: 0.35;
+    font-weight: 550;
+    letter-spacing: 1px;
+    position: relative;
+    top: 169px;
+}
+
+@keyframes bounce {
+    0% {transform: translateY(-20px);}
+    100% {transform: translateY(10px);}
+}
